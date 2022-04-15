@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script  src="script.js"></script>
+</head>
+<body>
+    <h1>Memory Game</h1>
+
+    <div id="container">
+        <!-- First Line  -->
+        <div class="tile" id="tile1" onclick="matchColor('tile1',0);"></div>
+        <div class="tile" id="tile2" onclick="matchColor('tile2',1);"></div>
+        <div class="tile" id="tile3" onclick="matchColor('tile3',2);"></div>
+        <div class="tile" id="tile4" onclick="matchColor('tile4',3);"></div>
+        <div class="tile" id="tile5" onclick="matchColor('tile5',4);"></div>
+        <div class="tile" id="tile6" onclick="matchColor('tile6',5);"></div>
+
+        <!-- Second Line  -->
+        <div class="tile" id="tile7" onclick="matchColor('tile7',6);"></div>
+        <div class="tile" id="tile8" onclick="matchColor('tile8',7);"></div>
+        <div class="tile" id="tile9" onclick="matchColor('tile9',8);"></div>
+        <div class="tile" id="tile10" onclick="matchColor('tile10',9);"></div>
+        <div class="tile" id="tile11" onclick="matchColor('tile11',10);"></div>
+        <div class="tile" id="tile12" onclick="matchColor('tile12',11);"></div>
+
+        <!-- Third Line  -->
+        <div class="tile" id="tile13" onclick="matchColor('tile13',12);"></div>
+        <div class="tile" id="tile14" onclick="matchColor('tile14',13);"></div>
+        <div class="tile" id="tile15" onclick="matchColor('tile15',14);"></div>
+        <div class="tile" id="tile16" onclick="matchColor('tile16',15);"></div>
+        <div class="tile" id="tile17" onclick="matchColor('tile17',16);"></div>
+        <div class="tile" id="tile18" onclick="matchColor('tile18',17);"></div>
+        
+        <center><input id="newGame" type="button" value="New Game" onclick="reload()"/></center>
+    </div>
+</body>
+</html>

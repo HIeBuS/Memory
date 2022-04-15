@@ -1,0 +1,180 @@
+body
+{
+    background-image: url('img/y-so-serious-white.png');
+    margin-top: 70px;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 56px;
+    font-family: courier;
+    color:#2e2e2d;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 3px 3px #5bbbd9;
+}
+
+#container
+{
+    width: 1100px;
+    height: 556px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tile
+{
+    background-color: black;
+    width: 160px;
+    height: 160px;
+    margin: 10px;
+    border: 1px inset #002733;
+    float: left;
+}
+
+.tile:hover
+{
+    opacity: 0.7;
+}
+
+.tile:active
+{
+    opacity: 0.3;
+}
+
+/* First line  */
+#tile1
+{
+    background-image: url('img/landscape/1.png');
+    background-size: 100% 100%;
+}
+
+#tile2
+{
+    background-image: url('img/landscape/2.png');
+    background-size: 100% 100%;
+}
+
+#tile3
+{
+    background-image: url('img/landscape/3.png');
+    background-size: 100% 100%;
+}
+
+#tile4
+{
+    background-image: url('img/landscape/4.png');
+    background-size: 100% 100%;
+}
+
+#tile5
+{
+    background-image: url('img/landscape/5.png');
+    background-size: 100% 100%;
+}
+
+#tile6
+{
+    background-image: url('img/landscape/6.png');
+    background-size: 100% 100%;
+}
+
+/* Second line  */
+#tile7
+{
+    background-image: url('img/landscape/7.png');
+    background-size: 100% 100%;
+}
+
+#tile8
+{
+    background-image: url('img/landscape/8.png');
+    background-size: 100% 100%;
+}
+
+#tile9
+{
+    background-image: url('img/landscape/9.png');
+    background-size: 100% 100%;
+}
+
+#tile10
+{
+    background-image: url('img/landscape/10.png');
+    background-size: 100% 100%;
+}
+
+#tile11
+{
+    background-image: url('img/landscape/11.png');
+    background-size: 100% 100%;
+}
+
+#tile12
+{
+    background-image: url('img/landscape/12.png');
+    background-size: 100% 100%;
+}
+
+/* Third line  */
+#tile13
+{
+    background-image: url('img/landscape/13.png');
+    background-size: 100% 100%;
+}
+
+#tile14
+{
+    background-image: url('img/landscape/14.png');
+    background-size: 100% 100%;
+}
+
+#tile15
+{
+    background-image: url('img/landscape/15.png');
+    background-size: 100% 100%;
+}
+
+#tile16
+{
+    background-image: url('img/landscape/16.png');
+    background-size: 100% 100%;
+}
+
+#tile17
+{
+    background-image: url('img/landscape/17.png');
+    background-size: 100% 100%;
+}
+
+#tile18
+{
+    background-image: url('img/landscape/18.png');
+    background-size: 100% 100%;
+} 
+
+#newGame
+{
+    margin-top: 50px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #5bbbd9; 
+    font-weight: bold;
+    text-shadow: 1px 1px #094557;
+    border: 3px outset black;
+}
+
+#newGame:hover
+{
+    background-color:#5caaaf;;
+}
+
+#newGame:active
+{
+    background-color:#488a9e;;
+}
